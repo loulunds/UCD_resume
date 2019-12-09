@@ -1,8 +1,110 @@
-@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap:100,200,300,400,500,600,700');
+/* ---------------------colors */
+.bg-color-name-title{
+    background-color: yellow;
+}
 
+.ui-menu-color-home {
+    background-color: rgb(180, 43, 43);
+}
+
+.ui-menu-color-resume {
+    background-color: rgb(192, 80, 28);
+}
+
+.ui-menu-color-contact {
+    background-color: rgb(230, 182, 53);
+}
+
+.ui-menu-color-download {
+    background-color: rgb(66, 109, 60);
+}
+/* --------------------heading */
 header {
     margin:0;
 }
+
+.heading {
+    margin-left:50px;
+}
 .logo {
     background: url("../images/rosie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    transition:all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
+
+.name {
+    font-family: "Exo", sans-serif;
+    color: blue;
+    font-weight: 500;
+    font-size: 46px; 
+    margin-top: 50px;
+
+}
+
+.title {
+    font-family: "Oswald", sans-serif;
+    color: #060496;
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 90px;
+   
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+ #nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+ .menuitem {
+     height: 120px;
+     text-align: center;
+     padding: 0;
+ }
+
+ .menuitem a {
+     font-family: 'Exo', arial;
+     color:rgb(6, 6, 136);
+     width: 100%;
+     text-decoration: none;
+     height: 120px;
+ }
+
+ .menuitem i {
+     padding-top: 22px;
+     display: block;
+     color:#060496;
+     font-size: 26px;
+
+ }
+
+ .menuitem span {
+     display:block;
+     width: 100%;
+     padding-top: 5px;
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 14px;
+     font-weight: 300px;
+     letter-spacing: 2px;
+ }
+
+

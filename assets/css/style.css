@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap:100,200,300,400,500,600,700');
 /* ---------------------colors */
 .bg-color-name-title{
-    background-color: yellow;
+    background-color: rgb(255, 238, 0);
 }
 
 .ui-menu-color-home {
@@ -19,6 +19,24 @@
 
 .ui-menu-color-download {
     background-color: rgb(66, 109, 60);
+}
+/* ---------------------------Special paddings/margins/texts */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
 }
 /* --------------------heading */
 header {
@@ -107,4 +125,9 @@ header {
      letter-spacing: 2px;
  }
 
+/* --------------------------Hover.css */
 
+.hvr-sweep-to-bottom:before {
+     background: rgba(148, 148, 80, 0.2);
+     height: 120px;
+}

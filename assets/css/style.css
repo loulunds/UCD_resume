@@ -6,11 +6,11 @@
 }
 
 .ui-menu-color-home {
-    background-color: rgb(180, 43, 43);
+    background-color: rgb(212, 21, 21);
 }
 
 .ui-menu-color-resume {
-    background-color: rgb(192, 80, 28);
+    background-color: rgb(231, 103, 44);
 }
 
 .ui-menu-color-contact {
@@ -18,7 +18,7 @@
 }
 
 .ui-menu-color-download {
-    background-color: rgb(66, 109, 60);
+    background-color: rgb(2, 131, 77);
 }
 /* ---------------------------Special paddings/margins/texts */
 
@@ -56,11 +56,14 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 350px;
+    height: 348px;
+    position: relative;
     transition:all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+
+
 
 .name {
     font-family: "Exo", sans-serif;
@@ -95,17 +98,27 @@ header {
  #nav li {
     font-size: 14px;
     padding: 0;
+    transform-origin: bottom;
 }
 
+#nav li:hover {
+    transform: scale(1.2,1.2);
+    z-index: 100;
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+    
+}
  .menuitem {
-     height: 120px;
+     min-height: 100%;
      text-align: center;
      padding: 0;
  }
 
  .menuitem a {
      font-family: 'Exo', arial;
-     color:rgb(6, 6, 136);
+     color:rgb(23, 23, 133);
      width: 100%;
      text-decoration: none;
      height: 120px;
@@ -114,13 +127,12 @@ header {
  .menuitem i {
      padding-top: 22px;
      display: block;
-     color:#060496;
+     color:#ecebf3;
      font-size: 26px;
-
  }
 
  .menuitem span {
-     display:block;
+     display: inline-block;
      width: 100%;
      padding-top: 5px;
      text-align: center;
@@ -129,14 +141,16 @@ header {
      font-weight: 300px;
      letter-spacing: 2px;
  }
-
  
+
 /* --------------------------Hover.css */
 
+
 .hvr-sweep-to-bottom:before {
-     background: rgba(148, 148, 80, 0.2);
-     height: 120px;
+     background: rgb(163, 163, 125, 0);
+     height: 120px;   
 }
+
 
 /* --------------------------footer */
 

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap:100,200,300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Exo|Open+Sans|Oswald&display=swap:100,200,300,400,500,600,700');
 /* ---------------------colors */
 .bg-color-name-title{
     background-color: rgb(255, 238, 0);
@@ -24,6 +23,10 @@
 .ui-menu-color-download {
     background-color: rgb(2, 131, 77);
 }
+
+.bg-color-personal-info{
+    background-color: rgb(238, 237, 200);
+}
 /* ---------------------------Special paddings/margins/texts */
 
 h1,
@@ -38,7 +41,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: "Exo", sans-serif;
+    font-family: 'Gelasio', sans-serif;
     font-weight: 300;
     color: #e4e3ee;
 }
@@ -63,7 +66,7 @@ h4 {
     margin-top: 25px;
     margin-bottom: 40px;
     color:#050505;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 /* --------------------heading */
@@ -140,7 +143,7 @@ header {
  }
 
  .menuitem a {
-     font-family: 'Exo', arial;
+     font-family: 'Open Sans', arial;
      color:rgb(23, 23, 133);
      width: 100%;
      text-decoration: none;
@@ -242,4 +245,56 @@ footer {
 
 .three-reasons-heading {
     margin-bottom: 10px;
+}
+
+/* --------------------------- Personal Info */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;   
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p{
+    margin: 0;
+}
+
+.personal-info-item .key{
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p{
+    font-weight:700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+
+/* -----------------------------Skills */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position:absolute;
+    left: 0;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color:#efeff7;
+    background-color: rgb(25,25,25,0.2);
 }

@@ -6,7 +6,7 @@
 }
 
 .bg-color-three-reasons {
-    background-color: rgb(26, 108, 201);
+    background-color: rgb(114, 175, 245);
 }
 
 .ui-menu-color-home {
@@ -62,7 +62,8 @@ h4 {
     font-weight: 300px;
     margin-top: 25px;
     margin-bottom: 40px;
-    color:#090877;
+    color:#050505;
+    margin-left: 100px;
 }
 
 /* --------------------heading */
@@ -224,4 +225,21 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* ---------------------------------------Three reasons */
+
+.three-reasons-icon {
+    color: rgb(247, 247, 242);
+    font-size: 26px;
+}
+
+@media (min-width: 768px){
+    .three-reasons-icon{ 
+        margin-left: 30px;
+    }
+}      
+
+.three-reasons-heading {
+    margin-bottom: 10px;
 }

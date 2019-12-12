@@ -156,7 +156,7 @@ header {
 
 footer {
     background-color: rgb(26, 108, 201);
-    color: #cbccd1;
+    color: #e7e9ee;
     min-height: 120px;
     margin: 0;
 }
@@ -198,5 +198,8 @@ footer {
 
 .social-links li a i:hover {
     background: rgb(207, 99, 10);
+}
 
+#footer-details {
+    padding: 20px;
 }

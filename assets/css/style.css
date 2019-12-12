@@ -5,6 +5,10 @@
     background-color: rgb(255, 238, 0);
 }
 
+.bg-color-three-reasons {
+    background-color: rgb(26, 108, 201);
+}
+
 .ui-menu-color-home {
     background-color: rgb(212, 21, 21);
 }
@@ -41,6 +45,24 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display:table;
+}
+
+.section-column {
+    display: table-cell,
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color:#090877;
 }
 
 /* --------------------heading */
@@ -155,7 +177,7 @@ header {
 /* --------------------------footer */
 
 footer {
-    background-color: rgb(26, 108, 201);
+    background-color: rgb(74, 76, 78);
     color: #e7e9ee;
     min-height: 120px;
     margin: 0;
@@ -173,7 +195,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: rgb(180, 123, 17);
+    color: rgb(77, 179, 238);
 }
 
 .social-links {
@@ -197,7 +219,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: rgb(207, 99, 10);
+    background: rgba(246, 249, 250, 0.2);
 }
 
 #footer-details {

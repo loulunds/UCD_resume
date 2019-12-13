@@ -15,6 +15,10 @@
 .bg-color-work-history {
     background-color: rgb(178, 32, 207);
 }
+
+.bg-color-contact {
+    background-color: rgb(114, 175, 245);
+}
 .ui-menu-color-home {
     background-color: rgb(212, 21, 21);
 }
@@ -192,6 +196,13 @@ footer {
     margin: 0;
 }
 
+/* @media (min-height:768px){
+    footer {
+         position: fixed;
+         bottom: 0;
+    }
+} */
+
 .cv-pdf i {
     font-size: 18px;
     color: #fafafa;
@@ -308,15 +319,23 @@ footer {
     margin: 40px 20px;
 }
 
+@media (min-width:768px){
+    .progress-section{
+        
+        padding-top: 80px;
+    }
+}
+
+
 /* -------------------------------Work History */
 
 .history-heading {
     color: #e4e3ee;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .timeline-item {
-    padding: 4em 2em 0em 2em;
+    padding: 2em 2em 1em 2em;
     position: relative;
     color:#e4e3ee;
     border-left: 1px solid;
@@ -331,7 +350,7 @@ footer {
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
-    top: 3em;
+    top: 1em;
     display: block;
     font-family: "Exo", sans-serif;
     font-weight: 500;
@@ -344,10 +363,29 @@ footer {
     width: 12px;
     height: 12px;
     display: block;
-    top: 2.4em;
+    top: 1em;
     position: absolute;
     left: -6px;
     border-radius: 12px;
     content: '';
     background: #e4e3ee;
+}
+
+.history-items {
+    margin: 30px;
+}
+
+/* -----------------------Contact Form */
+
+.contact-heading {
+    font-family: "Exo"; sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0;
+    
 }

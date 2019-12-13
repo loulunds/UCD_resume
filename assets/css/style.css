@@ -134,6 +134,7 @@ header {
     font-size: 14px;
     padding: 0;
     transform-origin: bottom;
+    transition: 0.35s ease-out;
 }
 
 #nav li:hover {
@@ -386,6 +387,25 @@ footer {
 
 .center-form {
     padding-top: 10px;
-    margin: 0;
-    
+    margin: 0 auto;
+    max-width: 70%;
 }
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #eef2f7;
+    background-color: #6c757d;
+}
+
+/* ---------------------------media query */
+
+@media (min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+}
+
